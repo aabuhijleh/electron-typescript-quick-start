@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-typescript-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application (with typescript)",
   "main": "compile/main.js",
@@ -14,7 +14,7 @@
     "start": "electron .",
     "watch": "tsc -w"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/aabuhijleh/electron-typescript-quick-start",
   "keywords": [
     "Electron",
     "quick",

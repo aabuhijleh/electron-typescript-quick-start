@@ -1,5 +1,7 @@
 # Electron TypeScript Quick Start
 
+> This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository (but with typescript + [electron-builder](https://www.electron.build/))
+
 ## How to use?
 
 ```sh
@@ -13,7 +15,7 @@ $ npm run compile
 $ npm run watch
 
 # run the app
-$ npm run start
+$ npm start
 
 # create distributable packages for specific platforms
 $ npm run dist-linux
