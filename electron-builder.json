@@ -1,0 +1,35 @@
+{
+  "appId": "com.YOUR_COMPANY.YOUR_PRODUCT",
+  "productName": "YOUR_PRODUCT_NAME",
+  "directories": {
+    "buildResources": "./build",
+    "output": "./dist"
+  },
+  "asarUnpack": ["**/*.node"],
+  "mac": {
+    "category": "public.app-category.YOUR_CATEGORY",
+    "target": "dmg"
+  },
+  "linux": {
+    "target": ["AppImage", "deb"]
+  },
+  "win": {
+    "appId": "YOUR_COMPANY.YOUR_PRODUCT",
+    "target": "nsis"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "squirrelWindows": {
+    "msi": "true"
+  },
+  "msi": {
+    "warningsAsErrors": false
+  },
+  "appx": {
+    "publisherDisplayName": "YOUR_COMPANY"
+  }
+}
+  

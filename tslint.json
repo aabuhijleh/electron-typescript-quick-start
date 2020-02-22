@@ -1,0 +1,33 @@
+{
+  "extends": ["tslint:latest"],
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": false,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": true,
+    "no-empty-interface": false,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "no-implicit-dependencies": false,
+    "ordered-imports": true,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "never",
+        "objects": "never",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }
+    ]
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [120]
+    }
+  }
+}

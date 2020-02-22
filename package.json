@@ -1,10 +1,17 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": "A minimal Electron application (with typescript)",
+  "main": "compile/main.js",
   "scripts": {
-    "start": "electron ."
+    "clean": "del-cli ./compile ./dist",
+    "compile": "tsc",
+    "dist-linux": "electron-builder --config ./electron-builder.json --linux",
+    "dist-mac": "electron-builder --config ./electron-builder.json --mac",
+    "dist-windows": "electron-builder --config ./electron-builder.json --win",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron .",
+    "watch": "tsc -w"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -12,11 +19,21 @@
     "quick",
     "start",
     "tutorial",
-    "demo"
+    "demo",
+    "typescript"
   ],
-  "author": "GitHub",
+  "author": {
+    "name": "author name",
+    "email": "author@email.com",
+    "url": "http://author.example.com/"
+  },
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.0.1"
+    "@types/node": "^13.7.4",
+    "del-cli": "^3.0.0",
+    "electron": "^8.0.1",
+    "electron-builder": "^22.3.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
   }
 }
