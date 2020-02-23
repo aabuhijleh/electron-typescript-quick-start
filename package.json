@@ -12,6 +12,7 @@
     "lint": "tslint --project .",
     "postinstall": "electron-builder install-app-deps",
     "prestart": "npm run compile",
+    "prettier": "prettier --write '**/*.{js,ts,css,less,scss,vue,json,gql,md}'",
     "start": "electron .",
     "watch": "tsc -w"
   },
@@ -35,7 +36,10 @@
     "del-cli": "^3.0.0",
     "electron": "^8.0.1",
     "electron-builder": "^22.3.2",
+    "prettier": "^1.19.1",
     "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
     "typescript": "^3.8.2"
   }
 }

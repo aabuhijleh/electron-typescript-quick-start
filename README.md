@@ -47,7 +47,7 @@ $ npm run dist-windows
 
 ## Resources
 
-* [Electron docs](https://www.electronjs.org/docs)
-* [electron-builder docs](https://www.electron.build)
-* [Typescript docs](https://www.typescriptlang.org/docs)
-* [Tslint docs](https://palantir.github.io/tslint/usage/configuration)
+- [Electron docs](https://www.electronjs.org/docs)
+- [electron-builder docs](https://www.electron.build)
+- [Typescript docs](https://www.typescriptlang.org/docs)
+- [Tslint docs](https://palantir.github.io/tslint/usage/configuration)

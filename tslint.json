@@ -1,6 +1,11 @@
 {
-  "extends": ["tslint:latest"],
+  "extends": [
+    "tslint:latest",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
   "rules": {
+    "prettier": true,
     "max-line-length": {
       "options": [120]
     },
