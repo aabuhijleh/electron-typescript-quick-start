@@ -1,6 +1,6 @@
 // Modules to control application life and create native browser window
 import { app, BrowserWindow } from "electron";
-import * as path from "path";
+import path from "path";
 
 function createWindow() {
   // Create the browser window.

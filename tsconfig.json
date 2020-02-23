@@ -3,6 +3,8 @@
     "module": "commonjs",
     "sourceMap": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "outDir": "compile",
     "baseUrl": ".",
     "paths": {
