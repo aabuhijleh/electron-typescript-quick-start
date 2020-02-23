@@ -1,3 +1,6 @@
 node_modules
 compile
 dist
+
+# macoOS
+.DS_Store
