@@ -1,4 +1,4 @@
 {
   "**/*.ts": "tslint --fix",
-  "**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql}": "prettier --write"
+  "**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql,yml}": "prettier --write"
 }

@@ -13,8 +13,8 @@
     "lint-fix": "tslint --project . --fix",
     "postinstall": "electron-builder install-app-deps",
     "prestart": "npm run compile",
-    "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql}'",
-    "prettier-write": "prettier --write '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql}'",
+    "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql,yml}'",
+    "prettier-write": "prettier --write '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql,yml}'",
     "start": "electron .",
     "watch": "tsc -w"
   },
