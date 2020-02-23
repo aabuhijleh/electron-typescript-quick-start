@@ -30,6 +30,8 @@
   },
   "appx": {
     "publisherDisplayName": "YOUR_COMPANY"
-  }
+  },
+  "buildDependenciesFromSource": true,
+  "npmRebuild": true
 }
   
