@@ -9,6 +9,7 @@
     "dist-linux": "electron-builder --config ./electron-builder.json --linux",
     "dist-mac": "electron-builder --config ./electron-builder.json --mac",
     "dist-windows": "electron-builder --config ./electron-builder.json --win",
+    "lint": "tslint --project .",
     "postinstall": "electron-builder install-app-deps",
     "prestart": "npm run compile",
     "start": "electron .",
