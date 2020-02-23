@@ -2,6 +2,8 @@
 
 > This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository (but with typescript + electron-builder)
 
+> Note: checkout `prettier` branch for a project with prettier/tslint integration + git hooks for enforcing consistent styling
+
 ## How to use?
 
 ```sh
@@ -42,7 +44,7 @@ $ npm run dist-windows
 ├── views <b>(html, css files go here)</b>
 │   └── index.html
 └── .vscode
-    └── launch.json <b>(vscode main process debugging configuration)</b>
+    └── launch.json <b>(vscode debugger configuration)</b>
 </pre>
 
 ## Resources
