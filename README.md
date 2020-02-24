@@ -13,7 +13,7 @@ $ npm install
 # compile typescript files
 $ npm run compile
 
-# watch typescript files for changes
+# watch typescript files for changes (auto compilation)
 $ npm run watch
 
 # run the app
