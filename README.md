@@ -41,7 +41,7 @@ $ npm run dist-windows
 │   └── renderer.ts
 ├── tsconfig.json <b>(typescript compiler options)</b>
 ├── tslint.json <b>(tslint configuration)</b>
-└── views <b>(html, css files go here)</b>.vscode
+└── views <b>(html, css files go here)</b>
     └── index.html
 </pre>
 
