@@ -16,6 +16,7 @@
     "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql,yml}'",
     "prettier-write": "prettier --write '**/*.{js,jsx,ts,tsx,md,json,html,css,less,scss,vue,gql,yml}'",
     "start": "electron .",
+    "stylelint": "stylelint '**/*.{css,less,scss}'",
     "watch": "tsc -w"
   },
   "repository": "https://github.com/aabuhijleh/electron-typescript-quick-start",
@@ -41,6 +42,9 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "stylelint": "^13.2.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-prettier": "^1.1.2",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.1.0",

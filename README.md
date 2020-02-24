@@ -53,6 +53,7 @@ $ npm run dist-windows
 - [electron-builder docs](https://www.electron.build)
 - [Typescript docs](https://www.typescriptlang.org/docs)
 - [Tslint docs](https://palantir.github.io/tslint/usage/configuration)
+- [Stylelint docs](https://stylelint.io/)
 - [Prettier docs](https://prettier.io/docs)
 - [Husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
