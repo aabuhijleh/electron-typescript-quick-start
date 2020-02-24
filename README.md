@@ -1,8 +1,6 @@
 # Electron TypeScript Quick Start
 
-> This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository (but with typescript + electron-builder)
-
-> Note: checkout `prettier` branch for a project with prettier/tslint integration + git hooks for enforcing consistent styling
+> This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository (but with typescript + prettier + electron-builder)
 
 ## How to use?
 
@@ -13,7 +11,7 @@ $ npm install
 # compile typescript files
 $ npm run compile
 
-# watch typescript files for changes
+# watch typescript files for changes (auto compilation)
 $ npm run watch
 
 # run the app
@@ -41,10 +39,8 @@ $ npm run dist-windows
 │   └── renderer.ts
 ├── tsconfig.json <b>(typescript compiler options)</b>
 ├── tslint.json <b>(tslint configuration)</b>
-├── views <b>(html, css files go here)</b>
-│   └── index.html
-└── .vscode
-    └── launch.json <b>(vscode debugger configuration)</b>
+└── views <b>(html, css files go here)</b>
+    └── index.html
 </pre>
 
 ## Resources
