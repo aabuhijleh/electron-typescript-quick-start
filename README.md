@@ -28,19 +28,30 @@ $ npm run dist-windows
 <pre>
 .
 ├── electron-builder.json <b>(electron-builder configuration)</b>
+├── .github <b>(github CI configuration)</b>
+│   └── workflows
+│       └── nodejs.yml
 ├── .gitignore
+├── .huskyrc.json <b>(Husky configuration)</b>
 ├── LICENSE.md
+├── .lintstagedrc.json <b>(lint-staged configuration)</b>
 ├── package.json
 ├── package-lock.json
+├── .prettierignore
 ├── README.md
 ├── src <b>(typescript files go here)</b>
 │   ├── main.ts
 │   ├── preload.ts
 │   └── renderer.ts
+├── .stylelintrc.json <b>(stylelint configuration)</b>
 ├── tsconfig.json <b>(typescript compiler options)</b>
 ├── tslint.json <b>(tslint configuration)</b>
-└── views <b>(html, css files go here)</b>
-    └── index.html
+├── views <b>(html, css files go here)</b>
+│   ├── index.css
+│   └── index.html
+└── .vscode
+    ├── launch.json <b>(debugger configuration)</b>
+    └── settings.json <b>(workspace settings)</b>
 </pre>
 
 ## Resources
@@ -53,4 +64,4 @@ $ npm run dist-windows
 - [Prettier docs](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
-- [Github workflows](https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow)
+- [Github CI](https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)
