@@ -37,6 +37,6 @@
     "electron": "^8.0.2",
     "electron-builder": "^22.3.2",
     "tslint": "^6.0.0",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   }
 }
