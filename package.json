@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/node": "^13.9.0",
     "del-cli": "^3.0.0",
-    "electron": "^8.1.0",
+    "electron": "^8.1.1",
     "electron-builder": "^22.4.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
