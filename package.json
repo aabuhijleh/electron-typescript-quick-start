@@ -35,7 +35,7 @@
   },
   "license": "CC0-1.0",
   "devDependencies": {
-    "@types/node": "^13.9.3",
+    "@types/node": "^13.9.4",
     "del-cli": "^3.0.0",
     "electron": "^8.2.0",
     "electron-builder": "^22.4.1",
