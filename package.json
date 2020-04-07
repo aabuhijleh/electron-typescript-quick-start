@@ -41,7 +41,7 @@
     "electron-builder": "^22.4.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.4",
     "stylelint": "^13.3.0",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-prettier": "^1.1.2",
