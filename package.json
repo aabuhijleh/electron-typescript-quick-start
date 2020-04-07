@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/node": "^13.11.0",
     "del-cli": "^3.0.0",
-    "electron": "^8.2.0",
+    "electron": "^8.2.1",
     "electron-builder": "^22.4.1",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
