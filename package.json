@@ -4,7 +4,7 @@
   "description": "A minimal Electron application (with typescript)",
   "main": "compile/main.js",
   "scripts": {
-    "clean": "del-cli ./compile ./dist",
+    "clean": "rimraf ./compile ./dist",
     "compile": "tsc",
     "dist-linux": "electron-builder --config ./electron-builder.json --linux",
     "dist-mac": "electron-builder --config ./electron-builder.json --mac",
@@ -36,12 +36,12 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/node": "^13.11.0",
-    "del-cli": "^3.0.0",
     "electron": "^8.2.1",
     "electron-builder": "^22.4.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.4",
+    "rimraf": "^3.0.2",
     "stylelint": "^13.3.0",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-prettier": "^1.1.2",
