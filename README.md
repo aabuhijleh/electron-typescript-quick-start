@@ -2,8 +2,6 @@
 
 > This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository (but with typescript + electron-builder)
 
-> Note: checkout `prettier` branch for a project with prettier/tslint integration + git hooks for enforcing consistent styling
-
 ## How to use?
 
 ```sh
