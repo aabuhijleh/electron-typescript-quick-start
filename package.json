@@ -36,7 +36,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/node": "^13.13.4",
-    "electron": "^8.2.4",
+    "electron": "^8.2.5",
     "electron-builder": "^22.6.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.0",
