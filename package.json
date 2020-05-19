@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/node": "^13.13.5",
     "electron": "^8.3.0",
-    "electron-builder": "^22.6.0",
+    "electron-builder": "^22.6.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
