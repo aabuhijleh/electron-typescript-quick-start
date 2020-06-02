@@ -33,7 +33,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/node": "^13.13.5",
-    "electron": "^8.3.0",
+    "electron": "^9.0.1",
     "electron-builder": "^22.7.0",
     "rimraf": "^3.0.2",
     "tslint": "^6.1.2",
