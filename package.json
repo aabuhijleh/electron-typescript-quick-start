@@ -39,7 +39,7 @@
     "electron": "^9.2.1",
     "electron-builder": "^22.8.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^10.2.13",
     "prettier": "^2.1.0",
     "rimraf": "^3.0.2",
     "stylelint": "^13.6.1",
