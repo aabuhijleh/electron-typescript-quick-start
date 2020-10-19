@@ -5,6 +5,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "inlineSourceMap": true,
     "outDir": "compile",
     "baseUrl": ".",
     "paths": {
