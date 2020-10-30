@@ -2,23 +2,26 @@
 
 > This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository **+ typescript + electron-builder**
 
-## How to use?
+## Usage
 
 ```sh
-# install dependencies
+# Clone this repository
+$ git clone https://github.com/aabuhijleh/electron-typescript-quick-start
+
+# Go into the repository
+$ cd electron-typescript-quick-start
+
+# Install dependencies
 $ npm install
 
-# compile typescript files
-$ npm run build
-
-# watch typescript files (auto compilation)
-$ npm run watch
-
-# run the app
+# Run the app
 $ npm start
 
-# create setups
+# For distribution
 $ npm run package
+
+# For automatic compilation
+$ npm run watch
 ```
 
 [You can also run the app using VSCode's debugger](https://www.electronjs.org/docs/tutorial/debugging-main-process-vscode)
