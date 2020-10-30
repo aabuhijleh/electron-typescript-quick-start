@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
+    "noImplicitAny": true,
     "esModuleInterop": true,
     "inlineSourceMap": true,
-    "outDir": "compile",
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"]

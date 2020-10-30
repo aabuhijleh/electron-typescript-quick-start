@@ -7,8 +7,8 @@
 /coverage
 
 # production
-/compile
 /dist
+/release
 
 # misc
 .DS_Store
