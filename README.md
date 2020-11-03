@@ -1,6 +1,6 @@
 # Electron TypeScript Quick Start
 
-> This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository **+ typescript + electron-builder**
+> This template is based on the official [electron-quick-start](https://github.com/electron/electron-quick-start) repository **+ TypeScript + electron-builder**
 
 ## Usage
 
