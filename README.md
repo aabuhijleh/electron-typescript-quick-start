@@ -24,7 +24,7 @@ $ npm run package
 $ npm run watch
 ```
 
-[You can also run the app using VSCode's debugger](https://www.electronjs.org/docs/tutorial/debugging-main-process-vscode)
+[You can also run the app using VSCode's debugger](https://www.electronjs.org/docs/tutorial/debugging-vscode)
 
 ## Resources
 
