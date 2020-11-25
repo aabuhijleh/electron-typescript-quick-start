@@ -4,6 +4,7 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "sourceMap": true,
+    "skipLibCheck": true,
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
