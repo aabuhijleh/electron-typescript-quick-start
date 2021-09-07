@@ -29,7 +29,7 @@
   },
   "license": "CC0-1.0",
   "devDependencies": {
-    "@types/node": "^16.7.10",
+    "@types/node": "^16.7.13",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "electron": "^14.0.0",
