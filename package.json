@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "electron": "^15.3.1",
-    "electron-builder": "^22.14.13",
+    "electron-builder": "^23.3.3",
     "eslint": "^8.24.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.4"
